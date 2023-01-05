@@ -7,6 +7,10 @@
     color: #FD6E0A;
 }
 
+section {
+    margin-top: 130px;
+}
+
 /* header & nav Styles */
 .header {
     background: #FFF8F3;
@@ -39,12 +43,19 @@ nav li {
 .btn-primary {
     height: 64px;
     background: #FD6E0A;
+    border: 1px solid #FD6E0A;
     border-radius: 5px;
+    padding: 18px 35px;
+    transition-duration: 0.3s;
     font-weight: 700;
     font-size: 20px;
     color: #ffffff;
-    border: 0;
-    padding: 18px 35px;
+}
+
+.btn-primary:hover {
+    background: #ffffff;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
 }
 
 /* Banner */
@@ -83,7 +94,7 @@ main {
 
 /* About --------------------------*/
 .about {
-    margin-top: 130px;
+
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -124,11 +135,6 @@ main {
     font-size: 20px;
 }
 
-/* What i do */
-.whatido {
-    margin-top: 130px;
-}
-
 .skill-con {
     display: flex;
     gap: 24px;
@@ -148,4 +154,45 @@ main {
     font-weight: 700;
     font-size: 20px;
     margin: 30px 0;
+}
+
+/* resume */
+.resume-con{
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.resume-box {
+    width: 500px;
+    height: auto;
+    border-bottom: 2px solid #757575;
+    /* background-color: rgba(253, 111, 10, 0.299); */
+}
+
+.resume-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.re-item-1 {
+    margin-top: 30px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.re-item-2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.re-item-3 {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
 }
