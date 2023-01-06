@@ -1,15 +1,30 @@
 * {
-    margin: 0px;
+    margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
-
 .text-primary {
     color: #FD6E0A;
 }
-
 section {
     margin-top: 130px;
 }
+.btn-primary {
+    height: 64px;
+    background: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+    transition-duration: 0.3s;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+}
+.btn-primary:hover {
+    background: #ffffff;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
+
 
 /* header & nav Styles */
 .header {
@@ -38,24 +53,6 @@ nav li {
 .nav-title {
     font-size: 45px;
     font-weight: 800;
-}
-
-.btn-primary {
-    height: 64px;
-    background: #FD6E0A;
-    border: 1px solid #FD6E0A;
-    border-radius: 5px;
-    padding: 18px 35px;
-    transition-duration: 0.3s;
-    font-weight: 700;
-    font-size: 20px;
-    color: #ffffff;
-}
-
-.btn-primary:hover {
-    background: #ffffff;
-    border: 1px solid #FD6E0A;
-    color: #FD6E0A;
 }
 
 /* Banner */
@@ -157,7 +154,7 @@ main {
 }
 
 /* resume */
-.resume-con{
+.resume-con {
     margin-top: 110px;
     display: flex;
     justify-content: space-evenly;
@@ -166,11 +163,11 @@ main {
 .resume-box {
     width: 500px;
     height: auto;
-    border-bottom: 2px solid #757575;
+    /* border-bottom: 2px solid #757575; */
     /* background-color: rgba(253, 111, 10, 0.299); */
 }
 
-.resume-title{
+.resume-title {
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 30px;
@@ -195,4 +192,43 @@ main {
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+
+.re-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Contact Styles */
+
+.contact-con {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    background: #FFF8F3;;
+    padding: 130px 20px;
+    text-decoration: none;
+}
+
+.contact-con .section-ti {
+    text-align: left;
+    width: 563px;
+    /* background-color: #ff115834; */
+}
+
+.contact-con p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.contact-con h3 {
+    font-weight: 700;
+    font-size: 35px;
+}
+.contact-con input, textarea{
+    margin-bottom: 25px;
+    width: 460px;
+    border: 0;
+    border-radius: 4px;
+    padding: 18px 30px;
 }
